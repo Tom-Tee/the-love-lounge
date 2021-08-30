@@ -1,5 +1,3 @@
-
-
 const first = document.getElementById("fname")
 const last = document.getElementById("lname")
 const btn = document.querySelector('button')
@@ -19,11 +17,13 @@ const callApi = (firstName, secondName) => {
   })
 }
 
+
 const updateHtml = (data) => {
     matchResults.innerHTML = `<h1>${data.percentage}%</h1><br>
                               <h1>${data.result}</h1>
                               `
 }
+
 
 function checkMatch () {
   callApi(first.value, last.value)
