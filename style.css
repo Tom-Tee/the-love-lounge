@@ -1,0 +1,33 @@
+body {
+  background-color: peachpuff;
+  color: blueviolet;
+  font-family: 'Hina Mincho', serif;
+  font-weight: 900;
+}
+
+
+.input {
+  padding:8px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+h1 {
+  font-size: 64px
+
+}
+
+button {
+  padding:8px;
+  font-size: 24px;
+}
+
+
+.results {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  font-size:74px;
+}
